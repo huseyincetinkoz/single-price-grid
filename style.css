@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap');
+
+
+*{
+    Font size: 16px;
+}
+
+body{
+    font-family: 'Karla', sans-serif;
+    background-color: hsl(204, 43%, 93%);
+    margin: 0;
+    padding: 0;
+}
+
+.head-card > .card-text{
+    line-height: 25px;
+    color: hsla(210, 3%, 71%, 0.893);
+    font-weight: 400;
+}
+
+
+.container{
+    display: flex;
+    flex-direction: column;
+    width: 700px;
+    margin: 100px auto;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 0px 20px 1px rgba(0, 0, 0, 0.118);
+}
+.whyus-text{
+    color: hsla(203, 44%, 93%, 0.604);
+    font-weight: 400;
+    line-height: 22px;
+    font-size: 15px;
+}
+
+
+.bottom-card{
+    display: flex;
+    flex-direction: row;
+    color: #fff;
+    width: 100%;
+}
+
+.head-card > .card-header{
+    color: hsl(179, 62%, 43%);
+}
+
+.head-card > .card-desc{
+    color: hsl(71, 73%, 54%);
+}
+
+.head-card{
+    padding: 30px;
+    width: 100%;
+    background-color: #fff;
+}
+.card{
+    padding: 30px 30px;
+}
+
+
+
+
+.card1{
+    background-color: hsl(179, 62%, 43%);
+    width: 50%;
+}
+
+.card2{
+    background-color: hsl(179, 84%, 41%);
+    width: 50%;
+}
+
+.sub-text{
+    color: hsl(204, 43%, 93%);
+    font-weight: 400;
+}
+
+.button{
+    width: 250px;
+    text-align: center;
+    background-color: hsl(71, 73%, 54%);
+    display: block;
+    padding: 15px 5px;
+    border-radius: 5px;
+    margin-top: 35px;
+    box-shadow: 0 3px 10px 2px rgba(0, 0, 0, 0.194);
+}
+
+.permonth{
+    color: hsla(203, 44%, 93%, 0.602);
+
+}
+
+.dollar{
+    font-size: 35px;
+}
+
+@media screen and (max-width: 375px) {
+    body {
+      background-color: blue;
+      
+    }
+
+    .bottom-card{
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .card{
+        width: 100%;
+    }
+   
+  }
