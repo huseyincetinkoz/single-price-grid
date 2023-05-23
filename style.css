@@ -100,9 +100,12 @@ body{
 }
 
 @media screen and (max-width: 375px) {
-    body {
-      background-color: blue;
-      
+ 
+    
+
+    .container{
+        width: 350px;
+        margin: 20px auto;
     }
 
     .bottom-card{
@@ -112,6 +115,10 @@ body{
 
     .card{
         width: 100%;
+    }
+
+    .whyus{
+        margin-top: -10px;
     }
    
   }
