@@ -23,13 +23,13 @@ body{
     display: flex;
     flex-direction: column;
     width: 700px;
-    margin: 100px auto;
+    margin: 150px auto;
     border-radius: 10px;
     overflow: hidden;
     box-shadow: 0 0px 20px 1px rgba(0, 0, 0, 0.118);
 }
 .whyus-text{
-    color: hsla(203, 44%, 93%, 0.604);
+    color: hsla(203, 44%, 93%, 0.726);
     font-weight: 400;
     line-height: 22px;
     font-size: 15px;
